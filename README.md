@@ -28,7 +28,9 @@ end tell
 '''
 
 ## Note
-You have to keep your device on and connected to Internet to make sure the AppleSCript runs successfully.
+Make sure you have Spotify on your device.
+You have to keep your device on and connected to Internet to make sure the AppleScript runs successfully.
+
 
 ## Thoughts
 It was fun learning AppleScript - the level of automation enabled by it is amazing.
