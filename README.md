@@ -1,16 +1,15 @@
-# SpotiClock
+## What
+Play a specific song as your alarm clock using Spotify
 
-Spotify Alarm - Play a specific song as your alarm clock using Spotify
+## How
+1. Turn on the [IFTTT recipe](https://ifttt.com/recipes/283707-spotify-alarm-clock), or create a new applet in IFTTT that sends you an email with #wakeup in the email body at the your wakeup time.
 
-Utilizing [IFTT recipe](https://ifttt.com/recipes/283707-spotify-alarm-clock)
-In your mail client:
-
-Create a rule in your mail client with the following properties
+2. Create a rule in your mail client with the following properties:
 - Message content contains #wakeup
-- Actions: Delete Message, Run AppleScript
+- Actions: Delete Message, Run AppleScript(as below)
 
-Create an AppleScript with the following statements.
-```
+3. Create an AppleScript with the following lines:
+'''
 tell application "Spotify" to activate
 delay 5
 tell application "System Events"
@@ -26,6 +25,12 @@ tell application "System Events"
 	delay 2
 	key code 36
 end tell
-```
+'''
 
-Voila!
+## Note
+You have to keep your device on and connected to Internet to make sure the AppleSCript runs successfully.
+
+## Thoughts
+It was fun learning AppleScript - the level of automation enabled by it is amazing.
+
+*This is inspired by and forked from https://gist.github.com/anonymous/784de37358b27f5c7071*
