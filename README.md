@@ -9,7 +9,8 @@ Play a specific song as your alarm clock using Spotify
 - Actions: Delete Message, Run AppleScript(as below)
 
 3. Create an AppleScript with the following lines:
-'''
+
+```
 tell application "Spotify" to activate
 delay 5
 tell application "System Events"
@@ -25,7 +26,7 @@ tell application "System Events"
 	delay 2
 	key code 36
 end tell
-'''
+```
 
 ## Note
 Make sure you have Spotify on your device.
