@@ -36,4 +36,4 @@ You have to keep your device on and connected to Internet to make sure the Apple
 ## Thoughts
 It was fun learning AppleScript - the level of automation enabled by it is amazing.
 
-*This is inspired by and forked from https://gist.github.com/anonymous/784de37358b27f5c7071*
+*This is inspired by and forked from [here](https://gist.github.com/anonymous/784de37358b27f5c7071)*
